@@ -1,4 +1,3 @@
-import { ReactComponentElement } from "react"
 import { AnswerObject } from '../App'
 
 type Props = {

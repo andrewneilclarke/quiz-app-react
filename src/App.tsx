@@ -104,7 +104,7 @@ const nextQuestion = () => {
     <GlobalStyle />
     <div className="App">
      <h1>React Quiz (with Typescript) </h1>
-     <p>Powered by Open Trivia DB</p> 
+     <p className="powered">Powered by Open Trivia DB</p> 
      <select value={difficulty} onChange={selectLevel}>
             {levelOptions.map((option) => (
               <option key={option.label} value={option.value}>{option.label}</option>

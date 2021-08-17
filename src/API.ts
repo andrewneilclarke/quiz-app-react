@@ -1,4 +1,3 @@
-import React from "react"
 import { shuffleArray } from './utils'
 
 export type Question = {
@@ -16,7 +15,6 @@ export enum Difficulty {
     MEDIUM = 'medium',
     HARD = 'hard'
 }
-
 
 export const FetchQuizQuestions = async (amount: number, difficulty: Difficulty)  => {
     const endpoint = `https://opentdb.com/api.php?amount=${amount}&category=18&difficulty=${difficulty}&type=multiple`;

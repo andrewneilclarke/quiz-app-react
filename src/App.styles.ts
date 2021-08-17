@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import BGImage from './img/beach.jpg'
 
 export const GlobalStyle = createGlobalStyle`
@@ -12,12 +12,20 @@ export const GlobalStyle = createGlobalStyle`
     }
     p {
         margin-top: 0;
+        font-size: 18px
     }
+    .App .powered {
+        margin-top: 0;
+        font-size: 12px;
+        color: darkturquoise;
+    }
+    
     button {
-        background: lightseagreen;
+        background-color: rgba(0, 206, 209, 0.7);
         border: none;
         border-radius: 16px;
         padding: 6px 14px;
+        margin: 10px;
     }
 
     body {
