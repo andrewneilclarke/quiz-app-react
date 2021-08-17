@@ -15,6 +15,9 @@ export const GlobalStyle = createGlobalStyle`
     }
     button {
         background: lightseagreen;
+        border: none;
+        border-radius: 16px;
+        padding: 6px 14px;
     }
 
     body {
