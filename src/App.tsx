@@ -56,7 +56,7 @@ const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
 const levelOptions = [
   {
     label: "--Please choose a level--",
-    value: "easy"
+    value: undefined
 },
   {
     label: "Easy",
