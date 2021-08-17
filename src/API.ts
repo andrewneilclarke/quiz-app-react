@@ -17,6 +17,7 @@ export enum Difficulty {
     HARD = 'hard'
 }
 
+
 export const FetchQuizQuestions = async (amount: number, difficulty: Difficulty)  => {
     const endpoint = `https://opentdb.com/api.php?amount=${amount}&category=18&difficulty=${difficulty}&type=multiple`;
     const data = await (await fetch(endpoint)).json();
